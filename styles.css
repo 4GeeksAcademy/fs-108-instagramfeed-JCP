@@ -1,0 +1,48 @@
+body {
+	background-color: grey;
+	margin: 0px;
+}
+
+h1 {
+	margin: 0px;
+	background-color: white;
+	padding-left: 40%
+}
+
+.feed {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+	align-items: center;
+}
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	background-color: white;
+	margin: 20px auto;
+	width: 500px;
+	height: 500px;
+}
+.card-header {
+	justify-content: space-between;
+	display: flex;
+	width: 500px;
+}
+.card-header p {
+	padding: 10px;
+	font-family: impact;
+}
+.card-body {
+	width: 500px;
+	overflow: hidden;
+	height: 400px;
+	background: url("https://picsum.photos/500")
+	center / cover no-repeat;
+}
+.card-footer {
+	padding: 5px;
+	font-family: Times New Roman;
+}
